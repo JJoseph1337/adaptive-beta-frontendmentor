@@ -9,10 +9,10 @@ menuBurger.onclick = () => {
     menu.classList.toggle("menu-active");
 
     if (menu.classList.contains("menu-active")) {
-        burgerIcon.src = "/images/icon-close.svg";
+        burgerIcon.src = "./images/icon-close.svg";
 
     } else {
-        burgerIcon.src = "/images/icon-hamburger.svg";
+        burgerIcon.src = "./images/icon-hamburger.svg";
     }
 }
 
@@ -24,7 +24,6 @@ menuProject.onclick = () => {
 document.onclick = (e) => {
     if (!menu.contains(e.target) && !menuBurger.contains(e.target)) {
         menu.classList.remove('menu-active');
-        burgerIcon.src = "/images/icon-hamburger.svg";
-        console.log('done')
+        burgerIcon.src = "./images/icon-hamburger.svg";
     }
 }
