@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | [Blogr]</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="headerContainer">
+        <div class="header__navigation">
+          <h2 class="logoText">Blogr</h2>
+          <div class="menu">
+            <ul class="menuList">
+              <li class="menuList__item">
+                Product
+                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="8">
+                  <path
+                    fill="none"
+                    stroke="#FF7B86"
+                    stroke-width="2"
+                    d="M1 1l4 4 4-4"
+                  />
+                </svg>
+                <img src="/images/icon-arrow-light.svg" alt="arrow-light" />
+              </li>
+              <li class="menuList__item">
+                Company
+                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="8">
+                  <path
+                    fill="none"
+                    stroke="#FF7B86"
+                    stroke-width="2"
+                    d="M1 1l4 4 4-4"
+                  /></svg
+                ><img src="/images/icon-arrow-light.svg" alt="arrow-light" />
+              </li>
+              <li class="menuList__item menuList__item_project">
+                Project
+                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="8">
+                  <path
+                    fill="none"
+                    stroke="#FF7B86"
+                    stroke-width="2"
+                    d="M1 1l4 4 4-4"
+                  /></svg
+                ><img src="/images/icon-arrow-light.svg" alt="arrow-light" />
+              </li>
+              <ul class="subMenu subMenu-project">
+                <li class="subMenu__item">Contact</li>
+                <li class="subMenu__item">Newsletter</li>
+                <li class="subMenu__item">LinkedIn</li>
+              </ul>
+            </ul>
+            <hr class="menuDivider" />
+            <div class="menuActions">
+              <button class="btn btn-login">Login</button>
+              <button class="btn btn-signup">Sign up</button>
+            </div>
+          </div>
+          <div class="menuIcon">
+            <img
+              src="/images/icon-hamburger.svg"
+              alt="menu"
+              class="burgerIcon"
+            />
+          </div>
+        </div>
+        <article class="features">
+          <h2 class="features__title features__title_white">
+            A modern publishing platform
+          </h2>
+          <p class="features__subtitle features__subtitle_white">
+            Grow your audince and build your online brand
+          </p>
+        </article>
+        <div class="header__actions">
+          <button class="btn">Start for Free</button>
+          <button class="btn btn-dark">Learn More</button>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container">
+        <h2 class="features__title features__title_main">
+          Designed for the future
+        </h2>
+
+        <div class="content">
+          <div class="image">
+            <picture>
+              <source
+                srcset="/images/illustration-editor-desktop.svg"
+                media="(min-width:1024px)"
+              />
+              <img
+                src="/images/illustration-editor-mobile.svg"
+                alt="illustration-editor-mobile"
+                class="features__img"
+              />
+            </picture>
+          </div>
+          <div class="text">
+            <article class="features">
+              <h2 class="features__title features__title_main">
+                A modern publishing platform
+              </h2>
+              <p class="features__subtitle features__subtitle_main">
+                Blogr features an exceedingly intuitive interface which lets yo
+                focus on one thing: creating conetnt. The editor supports
+                management of multiple blogs and allows easy manipulationof
+                embeds such as images, videos, and Markdown. Extensibility with
+                plugins and themes provide easy ways to add functionality or
+                change the looks of a blog.
+              </p>
+            </article>
+            <article class="features">
+              <h2 class="features__title features__title_main">
+                Robust content management
+              </h2>
+              <p class="features__subtitle features__subtitle_main">
+                Flexible content management enables users to easily move through
+                posts. Increase the usability of you blog by adding customized
+                categrories, sections, format, or flow. With this functionality,
+                you're in full control.
+              </p>
+            </article>
+          </div>
+        </div>
+      </div>
+      <article class="features features-blue">
+        <div class="text">
+          <h2 class="features__title features__title_white">
+            State of the Art Infrastructure
+          </h2>
+          <p class="features__subtitle features__subtitle_white">
+            With reliability and speed in mind, worldwide data centers provide
+            the backbone for ultra-fast connectivity. This ensures your stie
+            will load instantly, no matter where your readers are, keeping your
+            site competetitive.
+          </p>
+        </div>
+        <img
+          src="/images/illustration-phones.svg"
+          alt="phones"
+          class="phonesImg"
+        />
+      </article>
+      <div class="container container-bottom">
+        <div class="content content-bottom">
+          <div class="image">
+            <picture>
+              <source
+                srcset="/images/illustration-laptop-desktop.svg"
+                media="(min-width:1024px)"
+              />
+              <img
+                src="/images/illustration-laptop-mobile.svg"
+                alt="illustration-laptop-mobile"
+                class="features__img features__img-bottom"
+              />
+            </picture>
+          </div>
+          <div class="text">
+            <article class="features features-right">
+              <h2 class="features__title features__title_main">
+                Free, open, simple
+              </h2>
+              <p class="features__subtitle features__subtitle_main">
+                Blogr is a free and open source application backed by a large
+                community of helpful developers. It support features such as
+                code syntax highlighting, RSS feeds, social media integration,
+                third-parrt commentning tools, and work seamlessly with
+                GoogleAnaltics. The artchitecture is clean and is relatviely
+                easy to learn.
+              </p>
+            </article>
+            <article class="features features-right">
+              <h2 class="features__title features__title_main">
+                Powerful tooling
+              </h2>
+              <p class="features__subtitle features__subtitle_main">
+                Batteris included. We build a simple and straightforward CLI
+                tool that makes customization and deploymment a breeze, but
+                capable of producing even the most complicated sites.
+              </p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <h2 class="logoText logoText-footer">Blogr</h2>
+      <ul class="footerList">
+        <li class="footerList__item"><a href="#">Product</a></li>
+        <li class="footerList__item"><a href="#">Overview</a></li>
+        <li class="footerList__item"><a href="#">Markeplaces</a></li>
+        <li class="footerList__item"><a href="#">Features</a></li>
+        <li class="footerList__item"><a href="#">Pricing</a></li>
+        <li class="footerList__item"><a href="#">Integrations</a></li>
+      </ul>
+      <ul class="footerList">
+        <li class="footerList__item"><a href="#">Company</a></li>
+        <li class="footerList__item"><a href="#">About</a></li>
+        <li class="footerList__item"><a href="#">Team</a></li>
+        <li class="footerList__item"><a href="#">Blog</a></li>
+        <li class="footerList__item"><a href="#">Careers</a></li>
+      </ul>
+      <ul class="footerList">
+        <li class="footerList__item"><a href="#">Connect</a></li>
+        <li class="footerList__item"><a href="#">Contact</a></li>
+        <li class="footerList__item"><a href="#">Newsletter</a></li>
+        <li class="footerList__item"><a href="#">LinkedIn</a></li>
+      </ul>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
